@@ -1,0 +1,13 @@
+# Datos (descargar desde UCI, ver README)
+*.xlsx
+*.csv
+*.zip
+
+# Entorno
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+venv/
+.DS_Store
+.vscode/
+_backup/
