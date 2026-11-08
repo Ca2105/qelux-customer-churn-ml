@@ -6,7 +6,7 @@
 
 Pipeline completo de **Machine Learning** (limpieza → ingeniería de variables → segmentación no supervisada → predicción de fuga → plan de acción) aplicado a **541.909 transacciones reales** de un e-commerce, con un objetivo concreto: preparar el relanzamiento de **Qelux**, mi marca de productos para mascotas.
 
-> Proyecto desarrollado en el Máster en Data Science e Inteligencia Artificial de **EBIS Business Techschool** (Tema 16 · Caso práctico evaluable).
+> Proyecto desarrollado en el Máster en Data Science e Inteligencia Artificial de **EBIS Business Techschool** (Tema 16 · Caso práctico evaluable) · **Calificación: 95/100**.
 
 ---
 
@@ -114,6 +114,15 @@ Qelux se posiciona como alta gama, así que las recompensas refuerzan el product
 - Datos proxy de otro sector y de 2010-2011; una sola fecha de corte; ventana de 90 días corta para mayoristas.
 - Predecir la fuga no dice qué incentivo funciona: el siguiente paso es un **test A/B de recompensas por segmento**.
 - Reentrenar con datos propios de Qelux y con varias fechas de corte, y fijar el umbral según el coste real de cada acción.
+
+## 🎓 Feedback del profesor y mejoras previstas
+
+Calificación: **95/100**, con una valoración muy positiva tanto de la parte técnica como de la visión de negocio. El profesor sugirió cuatro mejoras, que incorporaré en la siguiente versión:
+
+1. **Selección de variables más exhaustiva:** correlaciones y modelos de árbol para descartar o mejorar variables de entrada.
+2. **Modelos de boosting:** probar XGBoost u otro algoritmo de gradient boosting.
+3. **Rejillas de hiperparámetros más amplias** en `GridSearchCV`.
+4. **Explicabilidad:** añadir **SHAP values** para entender *por qué* el modelo marca a cada cliente en riesgo, algo clave cuando sus predicciones guían decisiones comerciales.
 
 ## 📁 Estructura del repositorio
 
