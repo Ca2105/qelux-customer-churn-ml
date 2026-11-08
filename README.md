@@ -4,7 +4,7 @@
 
 # 🐾 Qelux · Pipeline de Machine Learning para segmentar clientes y anticipar su fuga
 
-Pipeline completo de **Machine Learning** (limpieza → ingeniería de variables → segmentación no supervisada → predicción de fuga → plan de acción) aplicado a **541.909 transacciones reales** de un e-commerce, con un objetivo concreto: preparar el relanzamiento de **Qelux**, mi marca de productos para mascotas.
+Pipeline completo de **Machine Learning** (limpieza → ingeniería de variables → segmentación no supervisada → predicción de fuga → plan de acción) aplicado a **541.909 transacciones reales** de un e-commerce, con un objetivo concreto: prepararme para volver al mercado con **Qelux**, la marca de productos para mascotas que tuve en Amazon.
 
 > Proyecto desarrollado en el Máster en Data Science e Inteligencia Artificial de **EBIS Business Techschool** (Tema 16 · Caso práctico evaluable) · **Calificación: 95/100**.
 
@@ -12,7 +12,7 @@ Pipeline completo de **Machine Learning** (limpieza → ingeniería de variables
 
 ## 🎯 Objetivo
 
-Qelux es una marca real de accesorios premium para mascotas que tengo en pausa. Su producto estrella es un **comedero antivoracidad** de acero y silicona. Antes de relanzarla quería responder, con datos, a tres preguntas:
+Qelux fue mi marca de accesorios premium para mascotas en Amazon. Hoy no está activa, pero me encantaría volver a salir al mercado en un futuro no muy lejano, y esta vez hacerlo con datos. Su producto estrella era un **comedero antivoracidad** de acero y silicona. Antes de volver quería responder a tres preguntas:
 
 1. ¿Qué **tipos de cliente** tiene un e-commerce de este tipo?
 2. ¿Qué clientes tienen más riesgo de **no volver a comprar** en los próximos 90 días?
@@ -22,7 +22,7 @@ Qelux es una marca real de accesorios premium para mascotas que tengo en pausa. 
   <img src="img/qelux_comedero_yorkshire.jpg" alt="Comedero antivoracidad Qelux con un yorkshire" width="420">
 </p>
 
-> ℹ️ Como Qelux aún no tiene histórico propio, uso como **datos proxy** el dataset público [Online Retail (UCI)](https://archive.ics.uci.edu/dataset/352/online+retail): un comercio británico de regalos (2010-2011). Lo que se transfiere es **la metodología**, no los números.
+> ℹ️ Como Qelux no tiene histórico propio, uso como **datos proxy** el dataset público [Online Retail (UCI)](https://archive.ics.uci.edu/dataset/352/online+retail): un comercio británico de regalos (2010-2011). Lo que se transfiere es **la metodología**, no los números.
 
 ## 🛠️ Herramientas
 
